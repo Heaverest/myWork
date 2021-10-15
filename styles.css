@@ -1,0 +1,137 @@
+ 
+        
+
+
+header {
+    text-align: center;
+    margin-top: 140px;
+}
+header h2{
+    font-size: 34px;
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+    margin: 0px;
+}
+header h3{
+    font-size: 34px;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+header p{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.container{
+    position: relative;
+    display: inline-block;
+    display: grid;
+    max-width: 1440px;;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 20px;
+    justify-content: center;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 98%);
+    color:hsl(229, 6%, 66%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    }
+
+    #card-1{
+        box-shadow: 0 7px 16px #d7e0ea;
+        border-radius: 6px;
+        padding: 16px 12px 23px 24px;
+        height: 150px;
+        width: 250px;
+        position: absolute;
+        transform: translate(-204px,148px);
+        border-top: 4px solid hsl(180, 62%, 55%);
+    }
+ .container h3{
+     padding: 0px 0px;
+     border-bottom-width: 10px;
+     margin-top: 7px;
+ }
+    #card-2{
+        box-shadow: 0 7px 16px #d7e0ea;
+        border-radius: 6px;
+        padding: 16px 12px 23px 24px;
+        height: 150px;
+        width: 250px;
+        margin: 20px auto;
+        border-top: 4px solid hsl(0, 78%, 62%);
+    }
+    #card-3{
+        box-shadow: 0 7px 16px #d7e0ea;
+        border-radius: 6px;
+        padding: 16px 12px 23px 24px;
+        height: 150px;
+        width: 250px;
+        margin: 20px auto;
+        border-top: 4px solid hsl(34, 97%, 64%);
+        
+    
+    }
+    #card-4{
+        box-shadow: 0 7px 16px #d7e0ea;
+        border-radius: 6px;
+        padding: 16px 12px 23px 24px;
+        height: 150px;
+        width: 250px;
+        position: absolute;
+        transform: translate(422px,-307px);
+        border-top: 4px solid hsl(212, 86%, 64%);
+        }
+       
+    
+    img{
+        float: right;
+        height: 45px;
+        margin: 0 12px;
+    }    
+
+    @media screen and (max-width: 768px){
+        .container{
+            width: 100%;
+            display: inline-block;
+            grid-column: auto auto auto auto;
+            justify-content: center;
+            padding: 0px auto;
+        }
+        #card-1{
+            box-shadow: 0 7px 16px #d7e0ea;
+            border-radius: 6px;
+            padding: 16px 12px 23px 24px;
+            height: 150px;
+            width: 250px;
+            transform: translate(0px,0px);
+            position: relative;
+            margin: 0px auto;
+        }
+        #card-4{
+            box-shadow: 0 7px 16px #d7e0ea;
+            border-radius: 6px;
+            padding: 16px 12px 23px 24px;
+            height: 150px;
+            width: 250px;
+            transform: translate(0px,0px);
+            position: relative;
+            margin: 0px auto;
+        }
+        header{
+            padding: 0px auto;
+        }
+        header h2{
+            font-size: 29px;
+            font-weight: 200;
+            color: hsl(234, 12%, 34%);
+        }
+        header h3{
+            font-size: 29px;
+            font-weight: 600;
+            color: hsl(234, 12%, 34%);
+        }
+        .res{
+            margin-top: 36px;
+        }
+    }    
